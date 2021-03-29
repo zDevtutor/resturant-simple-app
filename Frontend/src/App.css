@@ -1,0 +1,15 @@
+/* Base Style */
+img {
+  width: 100%;
+}
+
+/* Utility Classes */
+.required::after {
+  content: "*";
+  font-weight: bold;
+  color: red;
+}
+
+.btn {
+  outline: none !important;
+}
